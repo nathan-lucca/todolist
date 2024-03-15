@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+  font-family: "Quicksand", sans-serif;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #282c34;
+  color: #a9a9a9;
+}
+
+.custom-logo {
+  display: flex;
+  align-items: center;
+  background-color: #282c34;
+  padding: 15px;
+  color: white;
+  border-bottom: 1px solid black;
+}
+
+.custom-navbar {
+  display: flex;
+  align-items: center;
+  background-color: #282c34;
+  font-size: 20px;
+  color: white;
+  border-bottom: 1px solid black;
+}
+
+.custom-navbar a {
+  color: #a9a9a9;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.custom-navbar a:hover {
+  color: #ffffff;
+}
+
+.custom-navbar a:focus {
+  animation: pulse 1s ease-out;
+}
+
+.custom-navbar .nav-link.active {
+  color: #ff6347;
+}
+
+.profile-dropdown {
+  background-color: #282c34;
+}
+
+.profile-dropdown li a:hover {
+  color: white;
+  background-color: #a9a9a9;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #a9a9a9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #282c34;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
